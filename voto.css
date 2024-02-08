@@ -1,0 +1,23 @@
+body{
+    background-color: cornflowerblue;
+    color: blue;
+    font-size: 1,25rem;
+    font-weight: bold;
+}
+
+input, button{
+    background-color: black;
+    color: green;
+    border-radius: 8px;
+}
+
+input::placeholder{
+    color: green;
+}
+button:hover{
+    background-color: blue;
+}
+
+button{
+    cursor: pointer;
+}
